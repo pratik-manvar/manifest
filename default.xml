@@ -2,5 +2,9 @@
 <manifest>
     <remote fetch="git://codeaurora.org/quic/la" name="caf" review="codeaurora.org"/>
     <remote fetch="git://codeaurora.org" name="caf2" review="codeaurora.org"/>
-    <remote fetch="git@localhost:/home/repo/" name=""/>
+    <remote fetch="https://github.com/pratik-manvar" name="origin"/>
+
+    <default remote="origin" revision="master"/>
+    <project name="test-project.git" path="test-project" remote="origin"/>
+    <project name="manifest.git" path="manifest" remote="origin"/>
 </manifest>
