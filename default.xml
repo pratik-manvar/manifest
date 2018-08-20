@@ -5,6 +5,5 @@
     <remote fetch="https://github.com/pratik-manvar" name="origin"/>
 
     <default remote="origin" revision="master"/>
-    <project name="test-project.git" path="test-project" remote="origin"/>
-    <project name="manifest.git" path="manifest" remote="origin"/>
+ <project name="test-project.git" path="test-project" revision="6baff5d431bcdf8df05f57e9ef25864b7420a897" remote="origin"/>
 </manifest>
